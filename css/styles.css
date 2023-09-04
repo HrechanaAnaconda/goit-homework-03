@@ -52,7 +52,6 @@ main {
 .page-header {
   background-color: #ffffff;
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 0;
 }
 
 .page-header-container {
@@ -62,9 +61,6 @@ main {
 .page-navigation {
   display: flex;
   align-items: center;
-  width: 100%;
-  max-width: 470px;
-  padding: 0 24px;
 }
 
 .logotype {
@@ -93,6 +89,7 @@ main {
 }
 
 .nav-link {
+  display: block;
   padding: 24px 0;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -118,6 +115,8 @@ main {
 }
 
 .address-link {
+  display: block;
+  padding: 24px 0;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -155,7 +154,7 @@ main {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
   font-family: "Roboto", sans-serif;
   font-size: 56px;
   line-height: 1.07;
@@ -208,7 +207,6 @@ main {
 
 .ft-title {
   margin-bottom: 8px;
-  text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 500;
