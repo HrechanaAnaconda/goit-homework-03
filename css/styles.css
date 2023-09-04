@@ -46,18 +46,25 @@ main {
   max-width: 1158px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.page-header-container {
-  display: flex;
+  padding: 0 15px;
 }
 
 .page-header {
   background-color: #ffffff;
   border-bottom: 1px solid #e7e9fc;
   padding: 24px 0;
+}
+
+.page-header-container {
+  display: flex;
+}
+
+.page-navigation {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 470px;
+  padding: 0 24px;
 }
 
 .logotype {
@@ -80,21 +87,13 @@ main {
   color: #2e2f42;
 }
 
-.page-navigation {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  max-width: 470px;
-  padding: 0 24px;
-}
-
 .nav-menu {
   display: flex;
   gap: 40px;
-  padding: 0 24px;
 }
 
 .nav-link {
+  padding: 0 24px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
