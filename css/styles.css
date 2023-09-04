@@ -92,6 +92,10 @@ main {
   gap: 40px;
 }
 
+.nav-item {
+  padding: 24px 0;
+}
+
 .nav-link {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -109,7 +113,6 @@ main {
 .address {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .address-menu {
